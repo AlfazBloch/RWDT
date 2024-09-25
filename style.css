@@ -116,3 +116,99 @@ nav{
     display: flex;
     justify-content: center;
 }
+
+
+/* Page:Demos */
+section.title{
+    background-color: #f7f7f7;
+    padding-block: 1rem;
+}
+
+.row{
+    display: flex;
+    max-width: 1000px;
+    margin-inline: auto;
+}
+.row h1{
+    font-size: 3.325rem;
+    font-weight: 300;
+    font-style: normal;
+}
+.demos .section1{
+    display: flex;
+    max-width: 1000px;
+    flex-flow: column;
+    margin: 4.5rem auto;
+}
+.demos .section1 .demo_title{
+    font-size: 1.525rem;
+}
+.demos .section1 hr{
+    margin-top: 24px;
+}
+.demos .demos_links{
+    display: flex;
+    flex-wrap: wrap;
+    padding-block: 1rem;
+    gap:1rem;
+}
+.demos .demos_links a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.225rem;
+    cursor: pointer;
+    height: 110px;
+    width: 238px;
+    background-color: #f7f7f7;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-weight: 400;
+    transition: 0.4s;
+}
+.demos .demos_links a:hover{
+    color: white;
+    background-color: #1ccacd;
+}
+.demos .section2{
+    display: flex;
+    max-width: 1000px;
+    flex-flow: column;
+    margin: 4.5rem auto;
+}
+.demos .section2 .demo_title{
+    font-size: 1.525rem;
+}
+.demos .section2 hr{
+    margin-top: 24px;
+}
+.demos .section3{
+    display: flex;
+    max-width: 1000px;
+    flex-flow: column;
+    margin: 4.5rem auto;
+}
+.demos .section3 .demo_title{
+    font-size: 1.525rem;
+}
+.demos .section3 hr{
+    margin-top: 24px;
+}
+footer{
+    display: flex;
+    padding-block: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    background-color: #f7f7f7;
+}
+footer a{
+    text-decoration: none;
+}
+footer a p{
+    display: inline;
+    color:#1ccacd;
+    font-size: 1.2rem;
+}
+footer a i{
+    color: #1ccacd;
+}
