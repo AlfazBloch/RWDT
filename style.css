@@ -19,11 +19,14 @@ nav{
 .nav ul li{
     display: inline;
     margin-inline:20px;
-    color: white;
 }
 .nav ul li a{
     color: white;
+    opacity: 0.8;
     text-decoration: none;
+}
+.nav ul li a.active,.nav ul li a:hover{
+    opacity: 1;
 }
 .nav ul li:nth-child(4){
     position: relative;
@@ -130,7 +133,7 @@ section.title{
     margin-inline: auto;
 }
 .row h1{
-    font-size: 3.325rem;
+    font-size: 2.725rem;
     font-weight: 300;
     font-style: normal;
 }
@@ -211,4 +214,154 @@ footer a p{
 }
 footer a i{
     color: #1ccacd;
+}
+
+
+/*Page:Docs.html */
+main{
+    margin-block: 4.5rem;
+    display: flex;
+    gap:20px;
+}
+.side .row .links{
+    display: flex;
+    gap:3.5rem;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.links div h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.025rem;
+    margin-bottom: 5px;
+}
+.links div ul li{
+    list-style-type: none;
+    text-align: right;
+    color: gray;
+    cursor: pointer;
+}
+.links div ul li:hover,.links div ul li.active{
+    background-color: #f7f7f7;
+    color: black;
+}
+.links div ul li a{
+    padding-block: 15px;
+    padding-right: 40px;
+    display: block;
+    width: 220px;
+}
+.links .api h3{
+    text-align: right;
+    padding-right: 25px;
+}
+.links .support h3{
+    text-align: right;
+    padding-right: 25px;
+}
+.docs{
+    display: flex;
+    flex-direction: column;
+    gap:2.5rem;
+}
+.docs .title h1{
+    font-weight: 400;
+    font-size: 2.3125rem;
+}
+.docs .note{
+    border-left: 7px solid #1ccacd;
+    padding: 15px;
+    color: gray;
+}
+.docs .newfeature h1{
+    font-weight: 400;
+    font-size: 1.6875rem;
+    margin-bottom: 2rem;
+}
+.docs .newfeature ul{
+    padding-left: 20px;
+    line-height: 1.6;
+}
+.docs .compatibility h1{
+    font-weight: 400;
+    font-size: 1.6875rem;
+    margin-bottom: 2rem;
+}
+.docs .compatibility p{
+    color: gray;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+.docs .compatibility ul{
+    padding-left: 20px;
+    line-height: 1.6;
+}
+.docs .library h1{
+    font-weight: 400;
+    font-size: 1.6875rem;
+    margin-bottom: 2rem;
+}
+.docs .library > p{
+    color: gray;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.docs .library ul{
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+.docs .library a{
+    color: #1ccacd;
+    cursor: pointer;
+}
+.docs .dependencies h1{
+    font-weight: 400;
+    font-size: 1.6875rem;
+    margin-bottom: 2rem;
+}
+.docs .dependencies p{
+    color: gray;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+.docs .dependencies a{
+    color:#1ccacd;
+    cursor: pointer;
+}
+.docs .nextstep h1{
+    font-weight: 400;
+    font-size: 1.6875rem;
+    margin-bottom: 2rem;
+}
+.docs .nextstep a{
+    color: #1ccacd;
+    font-size: 1.325rem;
+    cursor: pointer;
+}
+.docs .file h1{
+    font-weight: 400;
+    font-size: 1.6875rem;
+    margin-bottom: 2rem;
+}
+.docs .file p{
+    color: gray;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+.docs .file pre{
+    background-color: #f7f7f7;
+    color:gray;
+    padding: 25px;
+    line-height: 1.4;
+    border: 1px solid rgba(128, 128, 128, 0.628);
+    overflow-x: scroll;
+}
+.docs .file pre code{
+    line-height: 1.5;
+}
+.docs .file pre code b{
+    color: black;
 }
