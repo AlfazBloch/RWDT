@@ -155,7 +155,7 @@ section.title{
 .demos .demos_links a{
     text-decoration: none;
     color:black;
-    font-size: 1.225rem;
+    font-size: 1.025rem;
     cursor: pointer;
     height: 110px;
     width: 238px;
@@ -198,7 +198,7 @@ footer{
     padding-block: 1.5rem;
     justify-content: center;
     align-items: center;
-    gap:5px;
+    gap:8px;
     background-color: #f7f7f7;
 }
 footer a{
