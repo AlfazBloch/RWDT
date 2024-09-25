@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+nav{
+    background-color: #1ccacd;
+}
+.nav{
+    display: flex;
+    margin-inline:auto;
+    justify-content: space-between;
+    max-width: 1000px;
+    align-items: center;
+    height: 71.35px;
+    
+}
+.nav ul li{
+    display: inline;
+    margin-inline:20px;
+    color: white;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.nav ul li:nth-child(4){
+    position: relative;
+    cursor: pointer;
+}
+.nav h3 a{
+    text-decoration: none;
+    color:white;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.download{
+    position: absolute;
+    top: -10px;
+    right: -14px;
+    width:1rem;
+    height: 1rem;
+    background-color: #ff3f4d;
+    background-image: url(https://owlcarousel2.github.io/OwlCarousel2/assets/img/download.png);
+    background-repeat: no-repeat;
+    background-position: 50% 55%;
+    border-radius: 100%;
+    border:2px solid white;
+}
+.hero{
+    background-color: #1ccacd;
+    color: white;
+}
+.hero .row{
+    padding-block: 5rem;
+    display: flex;
+    margin-inline: auto;
+    max-width: 1000px;
+    justify-content: space-between;
+}
+.hero .row .section1{
+    padding: 10px;
+}
+.hero .row .section1 h1{
+    font-weight: 300;
+    font-size: 3.325rem;
+    margin-bottom: 23px;
+}
+.hero .row .section1 p{
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 23px;
+    
+}
+.hero .row .section1 .buttons{
+    padding-block: 23px;
+}
+.hero .row .section1 .buttons a{
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.hero .row .section1 .buttons a:nth-child(1){
+    background-color: white;
+    color: #1ccacd;
+}
+.hero .row .section1 .buttons a:nth-child(1):hover{
+    background-color: #ff0000e6;
+    color:white;
+    border-color: #ff0000e6;
+}
+.hero .row .section1 .buttons a:nth-child(2){
+    background-color: #1ccacd;
+    color: white;
+}
+.hero .row .section1 .buttons a:nth-child(2):hover{
+    background-color: #ff0000e6;
+    color: white;
+    border-color: #ff0000e6;
+}
+.hero .row .section1 .version{
+    color:white;
+    font-size: 1rem;
+    margin-top: 13px;
+}
+.hero .row .section2{
+    padding-inline: 10px;
+    flex-basis: 300px;
+    display: flex;
+    justify-content: center;
+}
