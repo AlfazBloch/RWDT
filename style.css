@@ -131,7 +131,7 @@ nav{
 .container .demo_ex h2{
     color: #808080;
     font-weight: 400;
-    font-size: 1.525rem;
+    font-size: 1.825rem;
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -155,7 +155,8 @@ nav{
     height: 200px;
     flex-grow: 1;
     flex-basis: 200px;
-    font-size: 1.725rem;
+    cursor: default;
+    font-size: 1.925rem;
     font-weight: 300;
 }
 .container .features{
@@ -191,6 +192,19 @@ nav{
 .feature:nth-child(5) div{
     width: 450px;
     margin-left: 1rem;
+}
+.pride p:nth-child(1){
+    color: #1ccacd;
+    font-size: 1.6875rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 2.25rem;
+    padding-inline: 4.5rem;
+    line-height: 1.4;
+}
+.pride p:nth-child(2){
+    text-align: center;
+    color: #555;
 }
 
 /* Page:Demos */
